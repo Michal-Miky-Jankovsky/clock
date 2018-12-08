@@ -1,0 +1,25 @@
+html,
+body,
+#wrap {
+  width: 100%;
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: #eee;
+  font-size: 300px;
+  font-family: "Digital", "Arial", serif;
+}
+@font-face {
+  font-family: 'Digital';
+  src: url('digital-7 (mono).woff');
+}
+body #wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+/*# sourceMappingURL=clock.css.map */
